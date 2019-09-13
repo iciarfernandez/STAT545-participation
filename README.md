@@ -15,6 +15,8 @@ If you are interested in learning more, [here](https://stat545.stat.ubc.ca/) is 
 
 My name is **Icíar**. I grew up in the small town of Zamora in northwestern Spain, and I moved to Vancouver this year to complete my MSc in Genome Science and Technology. In my free time, I enjoy reading :books:, hiking :evergreen_tree:, taking pictures :camera:, and [writing](https://scienceuntangled.wordpress.com/) about science :black_nib:!  
 
+> Do not go where the path may lead. Go instead where there is no path and leave a trail. - Ralph Waldo Emerson
+
 ***
 
 ### Education
