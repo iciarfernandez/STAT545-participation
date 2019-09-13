@@ -1,0 +1,37 @@
+---
+title: "cm003:rmd_exploration.YAMLheader"
+output:
+  html_document: 
+  keep_md: true
+  theme: cerulean
+  toc: true
+  toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##### 1. Loading packages and printing out gapminder data frame to explore the output
+```{r}
+library(gapminder)
+library(tibble)
+library(DT)
+gapminder
+```
+
+##### 2. New Code Chunk
+```{r}
+tibble::as_tibble(mtcars)
+DT::datatable(mtcars)
+```
+
+##### 3. Markdown Comments
+- mtcars is an R built-in data set based on data extracted from the 1974 *Motor Trend* US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). [**Here**](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html) you can find out more about this dataset. 
+
+##### 4. Some more in-line code chunk specifying the number of rows in the mtcars dataset
+```{r}
+nrow(mtcars)
+```
+
+##### 5. Integrating the code into the document
