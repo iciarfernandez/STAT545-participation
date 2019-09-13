@@ -9,7 +9,7 @@
   
 * My [**Class Participation**](https://github.com/sciclic/STAT545-participation) directory contains *in-class* activities.
   
-If you are interested in learning more, [here](https://stat545.stat.ubc.ca/) is the course  website.
+If you are interested in learning more, [here](https://stat545.stat.ubc.ca/) is the course website.
 
 ## About me 
 
@@ -28,9 +28,9 @@ M.Sc. in Genome Science and Technology | University of British Columbia | Vancou
 
 ### Goals
 
-+ Move to Vancouver [checkbox:checked]
++ Move to Vancouver - [ ]
 
-+ Learn how to rock climb! [checkbox:unchecked]
++ Learn how to rock climb! - [ ]
 
-+ And of course... learn R to implement it into my work and become a better scientist! [checkbox:unchecked]
++ And of course... learn R to implement it into my work and become a better scientist! - [x]
 
