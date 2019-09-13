@@ -4,7 +4,7 @@
 
 + Here is [**my participation**](https://github.com/sciclic/STAT545-participation) repo.
 
-+ Here is [**my account**](https://github.com/sciclic) (_@sciclic_).
++ Here is [**my _user_ account**](https://github.com/sciclic) (_@sciclic_).
 
 ## Assignment Links
 
