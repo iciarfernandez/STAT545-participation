@@ -1,11 +1,14 @@
-STAT545-homepage repo: https://github.com/STAT545-UBC/STAT545-home
+## Useful Links 
 
-The STAT545-home repo is under the organization account STAT545-UBC.
++ Here is the [**STAT545-homepage**](https://github.com/STAT545-UBC/STAT545-home) repo. The STAT545-homepage repo is under the _organization_ account [**STAT545-UBC**](https://github.com/STAT545-UBC).
 
-My participation repo: https://github.com/sciclic/STAT545-participation
++ Here is [**my participation**](https://github.com/sciclic/STAT545-participation) repo.
 
-My account: https://github.com/sciclic
++ Here is [**my account**](https://github.com/sciclic) (_@sciclic_).
 
-STAT-545 Assignment 1 2018: https://github.com/STAT545-UBC/Classroom/tree/cedb8f3d10a0d6188d244c2722140f2135d06af0/assignments/hw01
+## Assignment Links
 
+There will be 5 assignments.
+
+1. [**Assignment 01**](https://github.com/STAT545-UBC/Classroom/tree/cedb8f3d10a0d6188d244c2722140f2135d06af0/assignments/hw01) for STAT545 2019, which is __*due on September 17th*__.
 
