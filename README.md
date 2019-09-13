@@ -28,9 +28,9 @@ M.Sc. in Genome Science and Technology | University of British Columbia | Vancou
 
 ### Goals
 
-+ Move to Vancouver - [ ]
++ Move to Vancouver [ ]
 
-+ Learn how to rock climb! - [ ]
++ Learn how to rock climb! [ ]
 
-+ And of course... learn R to implement it into my work and become a better scientist! - [x]
++ And of course... learn R to implement it into my work and become a better scientist! [x]
 
