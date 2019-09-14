@@ -25,4 +25,3 @@ str(Titanic)
 #Provides result summaries
 summary(Titanic)
 ```
-
