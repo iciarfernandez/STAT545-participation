@@ -29,40 +29,36 @@ gapminder %>%
   group_by(continent, year) %>% 
   summarize(min_life = min(lifeExp),
             country = country[lifeExp == min_life]) %>%
-  arrange(min_life)
+  arrange(min_life) %>%
+  DT::datatable()
 ```
 
 2. Calculate the growth in population since the first year on record _for each country_ by rearranging the following lines, and filling in the `FILL_THIS_IN`. Here's another convenience function for you: `dplyr::first()`. 
 
-```
-mutate(rel_growth = FILL_THIS_IN) %>% 
-arrange(FILL_THIS_IN) %>% 
-gapminder %>% 
-DT::datatable()
-group_by(country) %>% 
-```
-
 ```{r}
-
+gapminder %>% 
+  group_by(country) %>% #either group_by or arrange could go first
+  arrange(year) %>% #by default it arranges in ascending order
+  mutate(rel_growth = pop - first(pop)) %>%
+  DT::datatable()
 ```
 
 
 3. Determine the country that experienced the sharpest 5-year drop in life expectancy, in each continent, sorted by the drop, by rearranging the following lines of code. Ensure there are no `NA`'s. Instead of using `lag()`, use the convenience function provided by the `tsibble` package, `tsibble::difference()`:
 
-```
-drop_na() %>% 
-ungroup() %>% 
-arrange(year) %>% 
-filter(inc_life_exp == min(inc_life_exp)) %>% 
-gapminder %>% 
-mutate(inc_life_exp = FILL_THIS_IN) %>% 
-arrange(inc_life_exp) %>% 
-group_by(country) %>% 
-group_by(continent) %>% 
-knitr::kable()
-```
-
 ```{r}
+gapminder %>%
+  group_by(country) %>%
+  arrange(year) %>%
+  mutate(inc_life_exp = difference(lifeExp)) %>%
+  drop_na() %>%
+  ungroup(country) %>%
+  group_by(continent) %>%
+  filter(inc_life_exp == min(inc_life_exp)) %>% 
+  arrange(inc_life_exp) %>% #arrange function works independently of groups
+  knitr::kable()
 
+#gapminder dataframe only has 5 year differences, that is why this code produces the 5 year difference rather than a 1 year difference
+  
 ```
 
