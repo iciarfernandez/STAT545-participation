@@ -14,7 +14,7 @@ This folder contains **in-class participation** exercises.
 
 + [Class Meeting 3](https://github.com/sciclic/STAT545-participation/tree/master/Class%20Participation/Class%20Meeting%203)
 
-+ [Class Meeting 4](
++ [Class Meeting 4](https://github.com/sciclic/STAT545-participation/tree/master/Class%20Participation/Class%20Meeting%204)
 
 + [Class Meeting 5](https://github.com/sciclic/STAT545-participation/tree/master/Class%20Participation/Class%20Meeting%205)
 
